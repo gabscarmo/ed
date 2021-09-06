@@ -1,5 +1,8 @@
 package pilha;
 
+public class Pilha {
+    
+    
 private int[] Dados;
 public int Topo;
 int Tam;   

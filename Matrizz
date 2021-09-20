@@ -1,0 +1,5 @@
+public int elemento(int i, int j) throws Exception{
+		//considere i como linha, e j como coluna
+		if(i>m||j>n) throw new Exception("posicao invalida");
+		return matriz[(j-1)*m-1+i];
+	}

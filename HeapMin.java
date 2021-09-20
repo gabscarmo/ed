@@ -12,15 +12,15 @@ public class MinHeap{
     }
 
     public int Parent(int i) {
-        return (int) Math.floor((i-1)/2); //floor(i/2) para arranjo começando em 1
+        return (int) Math.floor((i-1)/2); //floor(i/2) para arranjo comeÃ§ando em 1
     }
 
     public int LeftChild(int i) {
-        return 2*i + 1; //2i para arranjo começando em 1
+        return 2*i + 1; //2i para arranjo comeÃ§ando em 1
     }
 
     public int RightChild(int i) {
-        return 2*i + 2; //2i+2 para arranjo começando em 1
+        return 2*i + 2; //2i+2 para arranjo comeÃ§ando em 1
     }
 
     public void Swap(int i, int j) {
